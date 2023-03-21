@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D6711C829C8ED06006A2858 /* RegistroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6711C729C8ED06006A2858 /* RegistroViewController.m */; };
 		7DA7D93D29C7BAB9008811BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA7D93C29C7BAB9008811BD /* AppDelegate.m */; };
 		7DA7D94029C7BAB9008811BD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA7D93F29C7BAB9008811BD /* SceneDelegate.m */; };
 		7DA7D94329C7BAB9008811BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA7D94229C7BAB9008811BD /* ViewController.m */; };
@@ -14,9 +15,13 @@
 		7DA7D94829C7BABD008811BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DA7D94729C7BABD008811BD /* Assets.xcassets */; };
 		7DA7D94B29C7BABD008811BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DA7D94929C7BABD008811BD /* LaunchScreen.storyboard */; };
 		7DA7D94E29C7BABD008811BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA7D94D29C7BABD008811BD /* main.m */; };
+		7DA7D95629C7BC3D008811BD /* CeldaMascota.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA7D95529C7BC3D008811BD /* CeldaMascota.m */; };
+		7DA7D95929C7CD1D008811BD /* DetalleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA7D95829C7CD1D008811BD /* DetalleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D6711C629C8ED06006A2858 /* RegistroViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegistroViewController.h; sourceTree = "<group>"; };
+		7D6711C729C8ED06006A2858 /* RegistroViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegistroViewController.m; sourceTree = "<group>"; };
 		7DA7D93829C7BAB9008811BD /* equipo5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = equipo5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DA7D93B29C7BAB9008811BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7DA7D93C29C7BAB9008811BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +34,10 @@
 		7DA7D94A29C7BABD008811BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DA7D94C29C7BABD008811BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DA7D94D29C7BABD008811BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7DA7D95429C7BC3D008811BD /* CeldaMascota.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CeldaMascota.h; sourceTree = "<group>"; };
+		7DA7D95529C7BC3D008811BD /* CeldaMascota.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CeldaMascota.m; sourceTree = "<group>"; };
+		7DA7D95729C7CD1D008811BD /* DetalleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetalleViewController.h; sourceTree = "<group>"; };
+		7DA7D95829C7CD1D008811BD /* DetalleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetalleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +81,12 @@
 				7DA7D94929C7BABD008811BD /* LaunchScreen.storyboard */,
 				7DA7D94C29C7BABD008811BD /* Info.plist */,
 				7DA7D94D29C7BABD008811BD /* main.m */,
+				7DA7D95429C7BC3D008811BD /* CeldaMascota.h */,
+				7DA7D95529C7BC3D008811BD /* CeldaMascota.m */,
+				7DA7D95729C7CD1D008811BD /* DetalleViewController.h */,
+				7DA7D95829C7CD1D008811BD /* DetalleViewController.m */,
+				7D6711C629C8ED06006A2858 /* RegistroViewController.h */,
+				7D6711C729C8ED06006A2858 /* RegistroViewController.m */,
 			);
 			path = equipo5;
 			sourceTree = "<group>";
@@ -146,10 +161,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D6711C829C8ED06006A2858 /* RegistroViewController.m in Sources */,
+				7DA7D95929C7CD1D008811BD /* DetalleViewController.m in Sources */,
 				7DA7D94329C7BAB9008811BD /* ViewController.m in Sources */,
 				7DA7D93D29C7BAB9008811BD /* AppDelegate.m in Sources */,
 				7DA7D94E29C7BABD008811BD /* main.m in Sources */,
 				7DA7D94029C7BAB9008811BD /* SceneDelegate.m in Sources */,
+				7DA7D95629C7BC3D008811BD /* CeldaMascota.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
